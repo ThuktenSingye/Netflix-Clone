@@ -1,5 +1,5 @@
 
-    <h1>Netflix Clone</h1>
+   <h1>Netflix Clone</h1>
 <div>
     <p>This project is develop using html, css, javascript, react and firebase. It display frontend user interface with data fetch from movie API. Firebase is used for hosting services
     </p>

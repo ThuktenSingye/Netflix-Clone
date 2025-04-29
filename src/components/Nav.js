@@ -5,7 +5,6 @@ import Avatar from '../asset/avatar.png'
 
 function Nav() {
     const[show, handleShow] = useState(false)
-
     useEffect(()=>{
         window.addEventListener("scroll", ()=>{
             if(window.scrollY > 100){
@@ -21,9 +20,7 @@ function Nav() {
                 }
             });
         };        
-
     },[])
-
   return (
     <div className={`nav ${show && "nav_black"}`}>
         <img 
@@ -38,5 +35,4 @@ function Nav() {
     </div>
   )
 }
-
 export default Nav
